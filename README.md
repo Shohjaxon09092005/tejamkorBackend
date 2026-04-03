@@ -15,19 +15,7 @@ tejamkor/
 │   ├── views.py             # API ko'rinishlari
 │   ├── urls.py              # URL yo'nalishlar
 │   └── ai_xizmati.py       # Google Gemini AI integratsiyasi
-├── frontend/                 # React Native frontend
-│   ├── App.js               # Asosiy navigatsiya
-│   └── src/
-│       ├── kontekst/
-│       │   └── IlovaKontekst.js    # Global holat (Context API)
-│       ├── xizmatlar/
-│       │   └── api.js              # Backend bilan aloqa
-│       └── ekranlar/
-│           ├── AuthEkranlari.js    # Kirish va ro'yxat
-│           ├── BoshEkrani.js       # Bosh sahifa + Oila
-│           ├── MahsulotlarVaTaomnomaEkrani.js
-│           └── OvozEkrani.js       # Gamification
-└── requirements.txt
+
 ```
 
 ---
