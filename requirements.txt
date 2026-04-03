@@ -1,0 +1,44 @@
+# =============================================================
+# Tejamkor Ro'zg'or - Backend Python Kutubxonalari
+# requirements.txt
+# =============================================================
+
+Django==4.2.7
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0
+django-cors-headers==4.3.1
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+google-generativeai==0.3.2
+Pillow==10.1.0
+gunicorn==21.2.0
+
+
+# =============================================================
+# React Native - package.json (asosiy dependencies)
+# =============================================================
+# npm install qilish uchun quyidagi packagelarni o'rnating:
+#
+# npm install @react-navigation/native @react-navigation/native-stack
+# npm install react-native-screens react-native-safe-area-context
+# npm install @react-native-async-storage/async-storage
+# npm install react-native-vector-icons
+
+
+# =============================================================
+# .env fayli (backend uchun)
+# =============================================================
+# .env faylini yarating va quyidagilarni yozing:
+#
+# SECRET_KEY=django-secret-key-bu-yerga
+# DEBUG=True
+# ALLOWED_HOSTS=localhost,127.0.0.1
+#
+# DB_NAME=tejamkor_db
+# DB_USER=postgres
+# DB_PASSWORD=sizning_parolingiz
+# DB_HOST=localhost
+# DB_PORT=5432
+#
+# GEMINI_API_KEY=sizning_gemini_api_kalitingiz
+# (Google AI Studio dan bepul olish: https://aistudio.google.com/app/apikey)
